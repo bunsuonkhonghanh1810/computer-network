@@ -1,0 +1,135 @@
+/* Cài đặt chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+/* Thanh tìm kiếm */
+#search-bar {
+    width: 100%;
+    padding: 15px;
+    padding-right: 44px; /* space for clear button */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Quan trọng để padding không làm tăng width */
+    margin-bottom: 20px;
+}
+
+/* Wrapper để chứa input và nút clear */
+.search-wrapper {
+    position: relative;
+}
+
+#clear-search {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-82%);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: none;
+    background: #e0e0e0;
+    color: #333;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+}
+
+#clear-search:hover {
+    background: #d0d0d0;
+}
+
+
+/* Vùng chứa kết quả */
+#results-container {
+    margin-top: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.result-item {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.result-item:hover {
+    background-color: #e9f5ff;
+    border-color: #b3d7ff;
+}
+
+/* Trang hiển thị đáp án */
+#answer-page h3 {
+    color: #28a745;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+#answer-list {
+    margin-top: 15px;
+}
+
+.answer-item {
+    font-weight: bold;
+    background-color: #f0fff0;
+    border-left: 4px solid #28a745;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    white-space: pre-wrap; /* Giữ nguyên định dạng xuống dòng của đáp án */
+}
+
+/* Nút quay lại */
+#back-button {
+    display: block;
+    width: 120px;
+    padding: 12px;
+    margin: 30px auto 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Lớp tiện ích để ẩn/hiện element */
+.hidden {
+    display: none;
+}

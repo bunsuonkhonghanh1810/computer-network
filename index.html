@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra Cứu Đáp Án Mạng Máy Tính</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Màn hình chính/Trang chủ -->
+        <div id="main-page">
+            <h1>Tra Cứu Đáp Án Trắc Nghiệm Mạng Máy Tính</h1>
+            <div class="search-wrapper">
+                <input type="text" id="search-bar" placeholder="Nhập từ khóa câu hỏi để tìm kiếm...">
+                <button id="clear-search" class="hidden" aria-label="Clear search">×</button>
+            </div>
+            <div id="results-container">
+                <!-- Kết quả tìm kiếm sẽ được hiển thị ở đây -->
+            </div>
+        </div>
+
+        <!-- Màn hình hiển thị câu trả lời chi tiết -->
+        <div id="answer-page" class="hidden">
+            <h2 id="question-title"></h2>
+            <h3>Đáp án đúng:</h3>
+            <div id="answer-list">
+                <!-- Các đáp án đúng sẽ hiển thị ở đây -->
+            </div>
+            <button id="back-button">Quay Lại</button>
+        </div>
+    </div>
+
+    <!-- Tải dữ liệu và script xử lý -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
