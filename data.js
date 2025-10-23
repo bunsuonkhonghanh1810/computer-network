@@ -2,7 +2,7 @@
 const ALL_QUESTIONS = [
   {
     "question": "Mạng máy tính là mạng Internet?",
-    "answer": "A. Đúng"
+    "answer": "B. Sai"
   },
   {
     "question": "Thuật ngữ MAN là viết tắt của cụm từ nào?",
@@ -190,7 +190,7 @@ const ALL_QUESTIONS = [
   },
   {
     "question": "Giao thức nào dưới đây nằm ở tầng Ứng dụng trong mô hình TCP/IP? (Chọn 3)",
-    "answer": "B. HTTP\nC. TFTP"
+    "answer": "A. RIP\nB. HTTP\nC. TFTP"
   },
   {
     "question": "Giao thức nào dưới đây KHÔNG nằm ở tầng Vận chuyển trong mô hình TCP/IP? (Chọn 3)",
@@ -258,11 +258,11 @@ const ALL_QUESTIONS = [
   },
   {
     "question": "Loại kết nối nào dưới đây là kết nối không dây tầm ngắn? (Chọn 3)",
-    "answer": "A. RFID\nB. Wifi\nC. Bluetooth"
+    "answer": "A. RFID\nC. Bluetooth\nD. ZigBee"
   },
   {
     "question": "Các yếu tố nào dưới đây ảnh hưởng tới tốc độ truyền luồng bits? (Chọn 3)",
-    "answer": "B. Suy hao\nC. Băng thông"
+    "answer": "A. Mã hóa\nB. Suy hao\nC. Băng thông"
   },
   {
     "question": "Một trong những chức năng của tầng liên kết dữ liệu là phát hiện lỗi.",
@@ -362,7 +362,7 @@ const ALL_QUESTIONS = [
   },
   {
     "question": "Địa chỉ MAC nào có dưới đây KHÔNG trong tiêu đề của Frame? (Chọn 3)",
-    "answer": "B. MAC Gateway\nD. MAC Default"
+    "answer": "A.MAC sources\nB. MAC Gateway\nD. MAC Default"
   },
   {
     "question": "Các loại địa chỉ MAC bao gồm? (Chọn 3)",
@@ -550,11 +550,11 @@ const ALL_QUESTIONS = [
   },
   {
     "question": "Các phát biểu nào sau đây liên quan tới số hiệu cổng (Chọn 3)",
-    "answer": "A. Mỗi số hiệu cổng được hiển thị bằng một số nguyên không dấu\nD. Số hiệu cổng được dùng để xác định một ứng dụng"
+    "answer": "A. Mỗi số hiệu cổng được hiển thị bằng một số nguyên không dấu\nC. Mỗi số hiệu cổng có độ dài 16-bit do IANA cấp\nD. Số hiệu cổng được dùng để xác định một ứng dụng"
   },
   {
     "question": "Dữ liệu được đóng gói trong tầng Giao vận KHÔNG được gọi là (Chọn 3)",
-    "answer": "A. Segment hoặc Datagrama\nD. Segmen hoặc Datagrama"
+    "answer": "A. Segment hoặc Datagrama\nB. Segmen hoặc Datagram\nD. Segmen hoặc Datagrama"
   },
   {
     "question": "UDP quản lý và theo dõi thứ tự Datagram",
@@ -570,7 +570,7 @@ const ALL_QUESTIONS = [
   },
   {
     "question": "UDP không có cơ chế phát hiện lỗi",
-    "answer": "A. Đúng"
+    "answer": "B. Sai"
   },
   {
     "question": "UDP là giao thức truyền tin tin cậy",
